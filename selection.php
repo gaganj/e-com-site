@@ -25,41 +25,9 @@
         <!--        Top Bar-->
         <?php include('includes/top-bar.php')?>
         <!--        End of Top Bar-->
-            <!--        Carousel-->
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="images/lake.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="images/sunset.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="images/yosemite-park-2933024_960_720.jpg" class="d-block w-100" alt="...">
-            </div>
-        </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-        <!--        End of Carousel-->
-        
-        <div class="container">
-            <div class="wrapper">
-                <h1 class="heading">Trending</h1><div class="heading-line" id="headingUnderline"></div><hr class="hr-underline">
-            </div>
-        </div>
-        
+            <img src="images/tshirt1.png" style="width:400px; margin: 150px 50px 0px 300px;">     
+            <img src="images/tshirt2.png" style="width:400px; margin: 150px 200px 0px 50px;">     
+
     </body>
         <!--        Bootstrap Scripts -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

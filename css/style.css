@@ -1,3 +1,7 @@
+.top-margin{
+    margin-top: 60px;
+}
+
 html,body{
     height: 100%;
     width: 100%;
@@ -80,12 +84,15 @@ html,body{
 }
 
 #headingUnderline{
-    border-top: 3px solid #fc8828;
+    border-top: 4px solid #ff6600;
     width: 40px;
     margin: -15px auto 15px;
 }
 .hr-underline{
     margin-top: -17px;
     width: 100px;
-    border-top:1px solid rgba(0,0,0,.2)
+    border-top:1.5px solid rgba(0,0,0,.2)
 }
+
+/*Customize Page*/
+
