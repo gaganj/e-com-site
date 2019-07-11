@@ -3,12 +3,17 @@
     include('includes/connection.php');
 
     if(isset($_POST['submit-form'])){
+
+        function validateFormData( $formData ) {
+            $formData = trim( stripslashes( htmlspecialchars( $formData ) ) );
+            return $formData;
+        }
+
         $error = "";
         $tType = "";
 
         if($_POST["tShirtType"]){
-            
-
+            $tTyype = validateFormData( $_POST["tShirtType"] );
         }
         else{
             $error .= "Please select the shirt type.";
@@ -85,7 +90,7 @@
             <!--            ADD YOUR CODE HERE-->
         </div> 
 
-        <form class="container container-fluid" method="POST"> 
+        <form class="container container-fluid" action="<?php echo htmlspecialchars( $_SERVER['PHP_SELF'] ); ?>" method="post" enctype="multipart/form-data"> 
 
             <?php echo $error; ?>
             
