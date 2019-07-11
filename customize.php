@@ -90,7 +90,7 @@
             <!--            ADD YOUR CODE HERE-->
         </div> 
 
-        <form class="container container-fluid" action="<?php echo htmlspecialchars( $_SERVER['PHP_SELF'] ); ?>" method="post" enctype="multipart/form-data"> 
+        <form class="container container-fluid" action="<?php echo htmlspecialchars( $_SERVER['PHP_SELF'] ); ?>" method="post" enctype="multipart/form-data" > 
 
             <?php echo $error; ?>
             
